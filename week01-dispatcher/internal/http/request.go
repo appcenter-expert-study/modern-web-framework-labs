@@ -1,6 +1,6 @@
 package http
 
-import "github.com/labstack/echo"
+import "github.com/labstack/echo/v4"
 
 // Echo Context를 감싼 우리 프레임워크의 요청 객체
 type RequestContext struct {

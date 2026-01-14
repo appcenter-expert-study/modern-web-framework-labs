@@ -1,6 +1,6 @@
 package http
 
-import "github.com/labstack/echo"
+import "github.com/labstack/echo/v4"
 
 // Engine과 Dispatcher 사이의 상호계약
 type Handler interface {
