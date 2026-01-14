@@ -14,7 +14,7 @@ func Run() {
 	engine := http.NewEchoEngine()
 	// Dispatcher 생성
 	dispatcher := dispatcher.NewDispatcher()
-	// Engin에 Dispatcher 등록
+	// Engine에 Dispatcher 등록
 	engine.RegisterDispatcher(dispatcher)
 	// 서버 시작
 	engine.Start(":8080")
